@@ -9,7 +9,7 @@ Saint-Petersburg, Russia
 irina@teyalir.ru
 
 **Web site**  
-https://teyalir.ru/
+[teyalir.ru](https://teyalir.ru/)
 
 **Discord**  
 Irina (@TeyaLir)
@@ -23,6 +23,7 @@ Irina (@TeyaLir)
 ---
 
 ## ABOUT ME
+
 I am a web developer from St. Petersburg.  
 I create, fix and administer websites.
 
@@ -48,6 +49,7 @@ I create, fix and administer websites.
 ## EXPERIENCE
 
 ### Commercial projects
+
 - [proxiclinic.ru](https://proxiclinic.ru/)  
   In the process of creating this site.
 - [katerburg.ru](https://katerburg.ru/)  
@@ -56,6 +58,7 @@ I create, fix and administer websites.
   Redesign and optimization of a multi-page site. Translation to CMS. Site administration.
 
 ### Projects created when I was studying
+
 - [Infoprom](https://teyalir.ru/projects/infoprom/index.html)  
   Creating a site according to the PSD layout.
 - [Herb](https://teyalir.ru/projects/herb/index.html)  
@@ -70,13 +73,15 @@ I create, fix and administer websites.
 ---
 
 ## COURSES
+
 - from 0 to 1
 
 ---
 
 ## CODEWARS
+
 ```
-function multiply(a, b){  
+function multiply(a, b){
   return (a * b)
 }
 ```
