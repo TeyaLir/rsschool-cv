@@ -11,6 +11,9 @@ irina@teyalir.ru
 **Web site**  
 https://teyalir.ru/
 
+**Discord**  
+Irina (@TeyaLir)
+
 [**Telegram**](https://telegram.im/@teyalir)
 
 [**GitHub**](https://github.com/TeyaLir)
