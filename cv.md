@@ -74,6 +74,15 @@ I create, fix and administer websites.
 
 ---
 
+## CODEWARS
+```
+function multiply(a, b){  
+  return (a * b)
+}
+```
+
+---
+
 ## LANGUAGE
 
 - Russian - native
