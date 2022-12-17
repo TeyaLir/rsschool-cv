@@ -222,4 +222,32 @@ a:hover {
 .code__example {
   background-color: #434040;
 }
+
+.footer {
+  padding-top: 40px;
+}
+
+.footer__wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid #cccccc;
+  padding: 50px 0;
+}
+
+.footer__github {
+  padding: 0;
+}
+
+.footer__rss {
+  width: 121px;
+  height: 45px;
+  background-image: url("assets/svg/rs_school_js.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  border-bottom: none;
+}
+
+.footer__rss:hover {
+  border-bottom: none;
 }
