@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="wilih=device-wilih, initial-scale=1.0">
+  <link rel="icon" href="assets/favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="style.css">
+  <title>CV</title>
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <ul class="nav__list">
+        <li class="nav__item">
+          <a class="nav__link" href="#summary">Summary</a>
+        </li>
+
+        <li class="nav__item">
+          <a class="nav__link" href="#contacts">Contacts</a>
+        </li>
+
+        <li class="nav__item">
+          <a class="nav__link" href="#skills">Skills</a>
+        </li>
+
+        <li class="nav__item">
+          <a class="nav__link" href="#projects">Projects</a>
+        </li>
+
+        <li class="nav__item">
+          <a class="nav__link" href="#courses">Courses</a>
+        </li>
+
+        <li class="nav__item">
+          <a class="nav__link" href="#code">Code</a>
+        </li>
+
+        <li class="nav__item">
+          <a class="nav__link" href="#language">Language</a>
+        </li>
+      </ul>
+    </div>
+  </header>
+
+  <main class="main">
+    <div class="container">
+      <section class="section__main profile" id="profile">
+        <img class="photo" src="assets/img/photo.jpg" alt="my photo">
+
+        <div class="profile__inner">
+          <h1 class="profile__title">Irina Pavlikhina</h1>
+          <h2 class="profile__subtitle">Junior front-end developer</h2>
+        </div>
+      </section>
+
+      <section class="section summary" id="summary">
+        <h2 class="title">Summary</h2>
+
+        <p class="summary__desc">
+          I am a web developer from St. Petersburg. <br>
+          I create, fix and administer websites.
+        </p>
+      </section>
+
+      <div class="section__row">
+        <section class="section contacts" id="contacts">
+          <h2 class="title">Contacts</h2>
+
+          <ul class="contacts__list">
+            <li class="contacts__subtitle">Location
+              <p class="contacts__desc">Saint-Petersburg, Russia</p>
+            </li>
+
+            <li class="contacts__subtitle">E-mail
+              <p class="contacts__desc">irina@teyalir.ru</p>
+            </li>
+
+            <li class="contacts__subtitle">Web site
+              <p class="contacts__desc">
+                <a class="contacts__link" href="https://teyalir.ru/" target="_blank">
+                  teyalir.ru
+                </a>
+              </p>
+            </li>
+
+            <li class="contacts__subtitle">Discord
+              <p class="contacts__desc">Irina (@TeyaLir)</p>
+            </li>
+
+            <li class="contacts__subtitle">
+              <a class="contacts__link" href="https://telegram.im/@teyalir" target="_blank">
+                Telegram
+              </a>
+            </li>
+
+            <li class="contacts__subtitle">
+              <a class="contacts__link" href="https://github.com/TeyaLir" target="_blank">
+                GitHub
+              </a>
+            </li>
+
+            <li class="contacts__subtitle">
+              <a class="contacts__link" href="https://www.linkedin.com/in/teyalir" target="_blank">
+                LinkedIn
+              </a>
+            </li>
+          </ul>
+        </section>
+
+        <section class="section skills" id="skills">
+          <h2 class="title">Skills</h2>
+
+          <ul class="skills__list">
+            <li class="skills__item">HTML5</li>
+            <li class="skills__item">CSS3 (SCSS, Less)</li>
+            <li class="skills__item">Gulp</li>
+            <li class="skills__item">Git (Tig)</li>
+            <li class="skills__item">Vim</li>
+            <li class="skills__item">BEM naming</li>
+            <li class="skills__item">Pixel Perfect</li>
+            <li class="skills__item">Knowledge of Figma, Photoshop, Avocode to work with layouts</li>
+            <li class="skills__item">Cross-browser layout</li>
+            <li class="skills__item">Responsive layout</li>
+            <li class="skills__item">Optimization for mobile devices</li>
+            <li class="skills__item">Understanding the basics of usability</li>
+          </ul>
+        </section>
+      </div>
+
+      <section class="section projects" id="projects">
+        <h2 class="title projects__title">Projects</h2>
+
+        <div class="projects__row">
+          <div class="projects__col">
+            <h3 class="projects__subtitle">Commercial projects</h3>
+            <ul class="projects__list">
+              <li class="projects__item">
+                <a class="projects__link" href="https://proxiclinic.ru/">proxiclinic.ru</a>
+                <p class="projects__decs">In the process of creating this site.</p>
+              </li>
+
+              <li class="projects__item">
+                <a class="projects__link" href="https://katerburg.ru/">katerburg.ru</a>
+                <p class="projects__decs">Creating a site according to the Figma layout.</p>
+              </li>
+
+              <li class="projects__item">
+                <a class="projects__link" href="https://starsclinic.ru/">starsclinic.ru</a>
+                <p class="projects__decs">
+                  Redesign and optimization of a multi-page site. Translation to CMS. Site administration.
+                </p>
+              </li>
+            </ul>
+          </div>
+
+          <div class="projects__col">
+            <h3 class="projects__subtitle">Projects created when I was studying</h3>
+            <ul class="projects__list">
+              <li class="projects__item">
+                <a class="projects__link" href="https://teyalir.ru/projects/infoprom/index.html">Infoprom</a>
+                <p class="projects__decs">Creating a site according to the PSD layout.</p>
+              </li>
+
+              <li class="projects__item">
+                <a class="projects__link" href="https://teyalir.ru/projects/herb/index.html">Herb</a>
+                <p class="projects__decs">Creating a site according to the Figma layout.</p>
+              </li>
+
+              <li class="projects__item">
+                <a class="projects__link" href="https://teyalir.ru/projects/goshop/index.html">GoShop</a>
+                <p class="projects__decs">Creating a site according to the PSD layout.</p>
+              </li>
+
+              <li class="projects__item">
+                <a class="projects__link" href="https://teyalir.ru/projects/carsharing/index.html">Carsharing</a>
+                <p class="projects__decs">Creating a site according to the Figma layout.</p>
+              </li>
+
+              <li class="projects__item">
+                <a class="projects__link" href="https://teyalir.ru/projects/wooder/index.html">Wooder</a>
+                <p class="projects__decs">Creating a site according to the PSD layout.</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <div class="section__row">
+        <section class="section courses" id="courses">
+          <h2 class="title">Courses</h2>
+
+          <p class="courses__desc">from 0 to 1</p>
+        </section>
+
+        <section class="section code" id="code">
+          <h2 class="title">Code</h2>
+
+          <code class="code__example">
+            function multiply(a, b) {<br>
+              &nbsp; return (a * b)<br>
+            }
+          </code>
+        </section>
+      </div>
+
+      <section class="section language" id="language">
+        <h2 class="title">Language</h2>
+
+        <ul class="language__list">
+          <li class="language__item">
+            Russian - native
+          </li>
+
+          <li class="language__item">
+            English - read and translate with a dictionary :)
+          </li>
+        </ul>
+      </section>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__wrap">
+        <div class="footer__copy">
+          &copy;2022
+        </div>
+
+        <a class="footer__github" href="https://github.com/TeyaLir" target="_blank">
+          GitHub
+        </a>
+
+        <a class="footer__rss" href="https://rs.school/js/"></a>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
