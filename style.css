@@ -108,12 +108,6 @@ a:hover {
   padding: 40px 0;
 }
 
-@media (max-width: 768px) {
-  .section {
-    width: 100%;
-  }
-}
-
 .section__row {
   display: flex;
   justify-content: space-between;
