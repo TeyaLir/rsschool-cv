@@ -186,6 +186,10 @@ a:hover {
   margin-inline-start: 0;
 }
 
+.skills__item {
+  margin-bottom: 3px;
+}
+
 .summary {
   text-align: center;
 }
